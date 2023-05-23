@@ -21,7 +21,7 @@ function calculate() {
     result.style.color = "#62f507";
   } else if (bmi >= 25 && bmi <= 29.9) {
     category = "Overweight";
-    result.style.color = "#62f507";
+    result.style.color = "rgb(220, 244, 9)";
   } else if (bmi >= 30 && bmi <= 39.9) {
     category = "Obese";
     result.style.color = "#f56e07";
